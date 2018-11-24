@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <title>权限管理平台</title>
+    <script type="text/javascript">
+      window.abc_sso_env = "dev";
+      if(window.location.hostname === "auth.researchreport.cn"){
+        window.abc_sso_env = "dev";
+      }else if(window.location.hostname === "auth-dev.analyst.ai"){
+        window.abc_sso_env = "pre";
+      }else if(window.location.hostname === "auth.analyst.ai"){
+        window.abc_sso_env = "prod";
+      }
+
+    </script>
+    <script type="text/javascript" src="https://passport.abcfintech.com/abc-sso.js"></script>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>

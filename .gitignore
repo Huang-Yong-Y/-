@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+dist/
+.vscode/
+deploy.sh/
+package-lock.json/
+npm-debug.log
+!src/   不过滤该文件夹
+!*.jsx   不过滤java源文件
+!*.js   不过滤java源文件
+!index.html 不过滤该文件

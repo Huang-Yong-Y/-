@@ -1,0 +1,50 @@
+.application-detail-layout{
+    min-height: 825px;
+    margin:0 auto;
+    .detail-layout-header{
+        height: 4.19rem;
+        line-height: 4.10rem;
+        width: 100%;
+        background: #FCFCFC;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+        .headerlogo{
+            width: 2.14rem;
+            height: 2.14rem;
+            border-radius: 4px;
+            margin-top:-0.5rem;
+            margin-right: 0.86rem;
+        }
+        .header_span{
+            color: #333333;
+            font-size: 1.29rem;
+        }
+        .ant-menu-horizontal{
+            border:0px;
+        }
+    }
+    .application_router{
+        width: 82%;
+        height:3.57rem;
+        line-height: 3.57rem;
+        border:1px solid #E4E4E4;
+        border-bottom: 0px;
+        margin:1.59rem auto 0;
+        .bread-header{
+            .ant-breadcrumb {
+                line-height:3.57rem; 
+                margin-left:2.14rem;  
+                .ant-breadcrumb-link {
+                  a {
+                    font-size: 1rem;
+                    color: #151515;
+                    text-decoration:none;
+                    letter-spacing: 0;
+                    &:hover{
+                      color: #151515;
+                    }
+                  }
+                } 
+              }
+        }
+    }   
+}

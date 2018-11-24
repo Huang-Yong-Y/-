@@ -1,0 +1,215 @@
+.application{
+    .container{
+        width: 82%;
+        .application-container{
+            min-height: 787px;
+            margin:40px auto 0;
+            background: rgba(182, 177, 177, 0.1);
+            .list-data{
+                margin-bottom: 50px;
+                margin-top:10px;
+            }
+            .mydiv{
+                height:16.43rem;
+                width: 100%;
+                background: #FFFFFF;
+                box-shadow: 0 2px 3px 0 rgba(0,0,0,0.10);
+                border-radius: 2px;
+                .mylogo{
+                    width: 100%;
+                    height:12.86rem;
+                    cursor: pointer;
+                }
+                .myname{
+                    height:3.57rem;
+                    width: 100%;
+                    line-height: 3.57rem;
+                    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.10);
+                    span{
+                        font-size: 1rem;
+                        color: #333333;
+                        margin-left:30px;
+                    }
+                    i{
+                        float: right;
+                        margin-right:25px;
+                        font-style:normal;
+                        cursor: pointer;
+                        color:#999999;
+                    }
+                    i:hover{
+                        color:black;
+                    }
+                }
+                .mydiv-addnew{
+                    height:12.86rem;
+                    width: 100%;
+                    text-align: center;
+                    line-height: 230px;
+                    box-shadow: 0 1px 0 rgba(97, 97, 97, .1);
+                    .addapp{
+                        width: 5.14rem;
+                        height: 5.14rem;
+                        cursor: pointer;
+                    }
+                }
+                .my-addapp{
+                    height: 3.57rem;
+                    line-height: 3.57rem;
+                    text-align: center;
+                    font-size: 1rem;
+                    color: #333333;
+                }         
+            }
+        }
+    }
+    
+}
+.popmenu {
+    width:112px;
+    .ant-menu-item{
+        padding: 0 0;
+        margin-bottom: 4px;
+        padding-left:22px;
+        text-align: left;
+        color: #333333; 
+        background: white;   
+    }
+
+    .ant-menu-item:hover{
+        background: #F2F2F2;
+        color:black;
+    }
+}
+.ant-menu-vertical{
+    border-right:0;
+}
+.ant-popover-inner-content{
+    padding: 0 0;
+}
+.ant-menu-vertical .ant-menu-item:not(:last-child), .ant-menu-vertical-left .ant-menu-item:not(:last-child), .ant-menu-vertical-right .ant-menu-item:not(:last-child), .ant-menu-inline .ant-menu-item:not(:last-child){
+    margin-bottom: 0;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+    background: white; 
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected:hover{
+    background: #F2F2F2;
+}
+.deleteMode{
+    .ant-modal-footer{
+        border-top:0px;
+    }
+}
+.settingMode{
+    width:595px;
+    height:565px;
+    .ant-modal-header{
+        text-align: center;
+    }
+    .ant-modal-footer{
+        border-top:0px;
+    }
+    .settingDiv{
+        height: 32px;
+        margin-bottom: 25px;
+        .setting-left{
+            height:32px;
+            line-height: 32px;
+            font-family: PingFangSC-Regular;
+            font-size: 14px;
+            color: #333333;
+        }
+        .settingInput{
+            background: #FFFFFF;
+            border: 1px solid #CCCCCC;
+            border-radius: 2px;
+        }
+        .ant-form-item-label{
+            text-align: left;
+            label{
+                color:#333333;
+            }
+        }
+    }
+    .settingCover{
+        margin-bottom:25px;
+        .ant-form-item-label{
+            text-align: left;
+            label{
+                color:#333333;
+            }
+        }
+        .setting-left{
+            height:32px;
+            line-height: 32px;
+            font-family: PingFangSC-Regular;
+            font-size: 14px;
+            color: #333333;
+        }
+        .setting-right{
+            width: 190px;
+            height: 121px;           
+            .setting-top{
+                width: 190px;
+                height: 90px;
+                background: #02BBEB; 
+                border-radius: 2px;
+                position: relative;
+                .setting-hover{
+                    width: 190px;
+                    height: 20px;
+                    line-height: 20px;
+                    text-align: center;
+                    font-family: PingFangSC-Regular;
+                    font-size: 10px;
+                    color: #FFFFFF;
+                    background: rgba(0,0,0,0.30);
+                    cursor: pointer;
+                    position: absolute;
+                    bottom: 2px;
+                }
+            }
+            .setting-bottm{
+                margin-top: 14px;
+                height: 17px;
+                line-height: 17px;
+                font-family: PingFangSC-Regular;
+                font-size: 12px;
+                color: #999999;
+            }
+        }
+        .setting-logo-right{
+            width:100px;
+            height:93px;
+            .setting-logo-top{
+                width:60px;
+                height:60px; 
+                background: #02BBEB; 
+                border-radius: 2px;
+                position: relative;
+                .setting-logo-hover{
+                    width:60px;
+                    height: 20px;
+                    line-height: 20px;
+                    text-align: center;
+                    font-family: PingFangSC-Regular;
+                    font-size: 10px;
+                    color: #FFFFFF;
+                    background: rgba(0,0,0,0.30);
+                    cursor: pointer;
+                    position: absolute;
+                    bottom: 2px;
+                }
+            }
+            .setting-logo-bottm{
+                margin-top: 14px;
+                height: 17px;
+                line-height: 17px;
+                font-family: PingFangSC-Regular;
+                font-size: 12px;
+                color: #999999;
+            }
+        }
+    }
+}

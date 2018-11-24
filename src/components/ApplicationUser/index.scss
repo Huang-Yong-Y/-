@@ -1,0 +1,115 @@
+.application-user{
+    min-height: 825px;
+    width: 82%;
+    margin:0 auto;
+    border:1px solid #E4E4E4;
+    .user-import-div{
+        font-size: 1rem;
+        color: #333333;
+        letter-spacing: 0;
+        line-height: 30px;
+        margin-top:1.14rem;
+        margin-left:5rem;
+    }  
+    .user-import{
+        margin-left:5rem;
+        margin-top:0.93rem;
+        font-size:0.86rem; 
+        position: relative;
+        .ant-upload.ant-upload-drag {
+            border: 1px dashed #407CD5;
+            cursor: pointer;
+            text-align: center;
+            width: 25.71rem;
+            height: 12.86rem;
+            position: relative;
+            background: #FFFFFF;
+            border-radius: 2px;
+        }
+    }
+    .doload-div{
+        width: 25.71rem;
+        height: 2.57rem;
+        margin-top:0.43rem;
+        text-align: center;
+        line-height: 2.57rem;
+        margin-left:5rem;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+        border-radius: 2px;
+        font-size: 0.86rm;
+        color: #333333;
+        cursor: pointer;
+        &:hover{
+            color:#151515;
+        }
+    }
+    .user-api-div{
+        margin-left:5rem;
+        font-size: 14px;
+        color: #333333;
+        letter-spacing: 0;
+        line-height: 30px;
+        margin-top:2.21rem;
+    }
+    .user-api-bottom{
+        width: 56.43rem;
+        height: 21.7rem;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+        border-radius: 2px;
+        margin-top:0.71rem;
+        margin-left:5rem;
+        .user-input{
+            width:51.15rem;
+            margin-left:2.21rem;
+            margin-right:3.07rem;
+            height:2.2rem;
+            margin-top:1.79rem;
+            line-height: 2.14rem;
+            color: #333333;
+            font-size: 0.86rem;
+            .input-div{
+                width: 41.29rem;
+                height:2.14rem;
+                margin-left:2.29rem;
+            }
+            .user-button{
+                color:white;
+                background: #407CD5;
+                border-radius: 2px;
+                margin-left:0.71rem;
+            }
+        }
+        .input-tishi{
+            font-size: 0.86rem;
+            color: #999999;
+            margin-left:6.21rem;
+            margin-top:0.71rem;
+        }
+        .user-in{
+            width:45.72rem;
+            margin-left:6.21rem;
+            height:1.23rem;
+            margin-top:1.57rem;
+            .information-div{
+                width:45.72rem;
+                height:1.21rem;
+                margin-top:0.93rem;
+                font-size: 0.86rem;
+                .information-left{
+                    float: left;
+                    color: #333333;
+                }
+                .information-right{
+                    float: right;
+                    color: #999999;
+                }
+            }
+            .look-more{
+                font-size: 0.86rem;
+                text-align: center;
+                color: #407CD5;
+                cursor: pointer;
+            }
+        }
+    }
+}

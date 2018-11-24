@@ -1,0 +1,68 @@
+.application-access{
+    width: 82%;
+    margin:0 auto;
+    min-height: 825px;
+    border:1px solid #E4E4E4;
+    .function-access{
+        width:80.42rem;
+        margin:4.5rem auto 0;
+        height:2.14rem;
+        .function{
+            float: left;
+            height: 2.14rem;
+            line-height: 2.14rem;
+            font-size: 1rem;
+            color: #333333;
+            letter-spacing: 0;
+        }
+        .function-button{
+            float: right;
+            height: 2.14rem;
+            button{
+                background: #407CD5;
+                border-radius: 2px;
+                color: #FFFFFF; 
+            }
+            .function-upload{
+                display: inline-block;
+            }
+            .function-add{
+                margin-left:1.43rem;
+                background: #407CD5;
+                border-radius: 2px;
+                color: #FFFFFF;
+            }
+        }
+    }
+    .module-access{
+        width:80.42rem;
+        margin:6.57rem auto 0;
+        height:2.14rem;
+        .module{
+            float: left;
+            height: 2.14rem;
+            line-height: 2.14rem;
+            font-size: 1rem;
+            color: #333333;
+            letter-spacing: 0;
+        }
+        .module-button{
+            float: right;
+            height: 2.14rem;
+            button{
+                background: #407CD5;
+                border-radius: 2px;
+                color: #FFFFFF; 
+            }
+            .module-upload{
+                display: inline-block;
+            }
+            .module-add{
+                margin-left:1.43rem;
+                background: #407CD5;
+                border-radius: 2px;
+                color: #FFFFFF;
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.application-role{
+    .role_none{
+        width:17rem;
+        height:20rem;
+        margin:11.43rem auto;
+        text-align: center;
+        .role_img{
+            width:10.71rem;
+            height:10.71rem;
+        }
+        p{
+            margin-top:1.29rem; 
+            margin-bottom:1.79rem; 
+        }
+        .add_new{
+            width:7.86rem;
+            height:2.57rem;
+            border: 1px solid #DDDDDD;
+            border-radius: 2px;
+            margin-right:0.71rem;
+            color: #666666;
+        }
+        .import_many{
+            width:7.86rem;
+            height:2.57rem;
+            border: 1px solid #DDDDDD;
+            border-radius: 2px;
+            color: #666666;
+        }
+    }
+}

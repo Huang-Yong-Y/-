@@ -1,0 +1,44 @@
+.user-list{
+    .user-list-container{
+        min-height: 856px;
+        .div-search{
+            margin-left:2.58rem;
+            height: 7.67rem;
+            line-height: 7.67rem;     
+            .user-list-search{
+                width: 33.33rem;
+                height:2.67rem;
+                .ant-input-search-button{
+                    height:2.67rem;
+                }
+            }
+        }
+        .div-drop{
+            margin-left:2.5rem;
+            .ant-dropdown-link{
+                font-size: 14px;
+                color: #287DDC;
+                cursor: pointer;
+                margin-right:3.33rem;
+            }
+        }
+        .div-table{
+            width: 100%;
+            padding-left:1.75rem;
+            padding-right:1.67rem;
+            margin-top:1.67rem;
+            .ant-table-thead th{
+                background: #F7F8F9;
+            } 
+            .ant-table-thead td{
+                background: #F5F5F5;
+            } 
+        }
+    }   
+}
+.ant-checkbox-group{
+    display: block;
+}
+.ant-checkbox-wrapper{
+    display: block;
+}

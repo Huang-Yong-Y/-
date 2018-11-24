@@ -1,0 +1,40 @@
+.ABCheader{
+    height:3.64rem;
+    background: black;
+    line-height:3.64rem;
+    .header_container{
+        height:3.64rem;  
+    }
+    .header_logo{
+        margin-left:1.79rem;
+        cursor: pointer;
+        .logo{
+            height: 2.57rem;
+            width: 7.64rem;
+            margin-right: 0.89rem;
+        }
+        .logo_span{
+            font-size: 1rem;
+            color: #FFFFFF;
+            text-align: left;
+            margin-left:0.36rem;
+            .logo_shu{
+                color:#696969;
+                font-style:normal;
+            }
+        }
+    }
+
+    .header_user{
+        color:white;
+        .user_img{
+            height:1.86rem;
+            width:1.86rem;
+            border-radius: 50%;
+            margin-right:0.57rem;
+        }
+    }
+    
+}
+
+

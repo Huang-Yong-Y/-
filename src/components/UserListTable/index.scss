@@ -1,0 +1,109 @@
+.user-list-table{
+    
+}
+.operateModel{
+    .ant-modal-header{
+        border-bottom: 0px;
+    }
+    .ant-modal-footer{
+        border-top: 0px;
+    }
+
+}
+.previewModel{
+    height: 65.71rem;
+    overflow: auto;
+    .choosed-user{
+        font-size: 1.14rem;
+        color: #333333;
+        line-height: 22px;
+        margin-left:0.5rem;
+        span{
+            color: #407CD5; 
+        }
+    }
+    .ant-tabs-nav-scroll{
+        font-size: 1rem;
+    }
+    .ant-tabs-bar{
+        margin-bottom: 0;
+    }
+    .user-official{
+        margin-top:2.67rem;
+        .function-access{
+            margin-bottom: 1.43rem;
+            p{
+                font-size: 1rem;
+                color: #333333;
+                letter-spacing: 0;
+                line-height: 30px;
+                margin-left:2.4rem;
+                margin-bottom: 1.33rem;               
+            }
+            .function-table{
+                border: 1px solid #EEEEEE;
+                .ant-table-thead th{
+                    background: #F5F5F5;
+                    color: #333333;
+                    font-size:0.86rem;
+                }
+                td{
+                    background: #FFFFFF; 
+                    font-size: 0.86rem;
+                }
+                .function-color{
+                    color: #333333;
+                }  
+                .function-colorgrey{
+                    color: #999999;
+                }
+            }
+        }
+    }
+    .ant-tabs-nav .ant-tabs-tab:hover{
+        color:#407CD5 ;
+    }
+    .ant-tabs-nav .ant-tabs-tab-active{
+        color:#407CD5 ;
+    }
+    .ant-tabs-ink-bar{
+        background-color:#407CD5 ;
+    }
+    .module-access{
+        p{
+            font-size: 1rem;
+            color: #333333;
+            letter-spacing: 0;
+            line-height: 30px;
+            margin-left:2.4rem;
+            margin-bottom: 1.33rem;
+        }   
+        .module-table{
+            border: 1px solid #EEEEEE;
+            .ant-table-thead th{
+                background: #F5F5F5;
+                color: #333333;
+                font-size:0.86rem;
+            }
+            td{
+                background: #FFFFFF; 
+                font-size: 0.86rem;
+            }
+            .module-color{
+                color: #333333;
+            }  
+            .module-colorgrey{
+                color: #999999;
+            }
+        }   
+    }
+
+}
+.user-list-menu{
+    .setting{
+        color: #333333;
+        a{
+            color: #333333;  
+        }
+    }
+}

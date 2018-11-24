@@ -1,0 +1,98 @@
+.user-access{
+    .user-access-container{
+        height: 856px;
+        min-height: 856px;
+        overflow-y: auto;
+        .choosed-user{
+            font-size: 1.14rem;
+            color: #333333;
+            line-height: 22px;
+            margin-left:1.57rem;
+            margin-top:1.43rem;
+            span{
+                color: #407CD5; 
+            }
+        }
+        .choosed-tabs{
+            margin-left:1.57rem;
+            margin-right: 1.43rem;
+            .ant-tabs-nav .ant-tabs-tab:hover{
+                color:#407CD5 ;
+            }
+            .ant-tabs-nav .ant-tabs-tab-active{
+                color:#407CD5 ;
+            }
+            .ant-tabs-ink-bar{
+                background-color:#407CD5 ;
+            }
+            .user-official{
+                .function-access{
+                    margin-bottom: 1.43rem;
+                    p{
+                        font-size: 1rem;
+                        color: #333333;
+                        letter-spacing: 0;
+                        line-height: 30px;
+                        margin-left:2.4rem;
+                        margin-bottom: 1.33rem;               
+                    }
+                    .function-table{
+                        border: 1px solid #EEEEEE;
+                        .ant-table-thead th{
+                            background: #F5F5F5;
+                            color: #333333;
+                            font-size:0.86rem;
+                        }
+                        td{
+                            background: #FFFFFF; 
+                            font-size: 0.86rem;
+                        }
+                        .function-color{
+                            color: #333333;
+                        }  
+                        .function-colorgrey{
+                            color: #999999;
+                        }
+                    }
+                }
+                .module-access{
+                    p{
+                        font-size: 1rem;
+                        color: #333333;
+                        letter-spacing: 0;
+                        line-height: 30px;
+                        margin-left:2.4rem;
+                        margin-bottom: 1.33rem;
+                    }   
+                    .module-table{
+                        border: 1px solid #EEEEEE;
+                        .ant-table-thead th{
+                            background: #F5F5F5;
+                            color: #333333;
+                            font-size:0.86rem;
+                        }
+                        td{
+                            background: #FFFFFF; 
+                            font-size: 0.86rem;
+                        }
+                        .module-color{
+                            color: #333333;
+                        }  
+                        .module-colorgrey{
+                            color: #999999;
+                        }
+                    }   
+                }
+                .official-button{
+                    margin-top:2.21rem;
+                    margin-right:0.77rem;
+                    margin-bottom: 2rem;
+                    float: right;
+                    button{
+                        margin-left:2.21rem;
+                    }
+                }
+            }           
+        }
+    }   
+}
